@@ -1,0 +1,4 @@
+$(document).ready(function() {
+CucumberHTML.timelineItems.pushArray([{"id":"67d6bd11-12b0-4419-be86-a585559f991c","feature":"Login and add items to kart and make purchase","scenario":"Enter the page and log in","start":1727785806511,"group":19,"content":"","tags":"@suite,","end":1727785823695,"className":"passed"},{"id":"6e5c8f27-abc6-49af-9261-409925749ff2","feature":"Login and add items to kart and make purchase","scenario":"Enter the page and log in with wrong credentials","start":1727785806511,"group":20,"content":"","tags":"@suite,","end":1727785816559,"className":"passed"}]);
+CucumberHTML.timelineGroups.pushArray([{"id":19,"content":"Thread[ForkJoinPool-2-worker-5,5,main]"},{"id":20,"content":"Thread[ForkJoinPool-2-worker-7,5,main]"}]);
+});

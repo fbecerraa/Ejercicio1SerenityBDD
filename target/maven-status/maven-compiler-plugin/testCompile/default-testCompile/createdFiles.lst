@@ -1,0 +1,9 @@
+starter\helpers\PageObjectsSwag.class
+starter\helpers\Checkout.class
+starter\helpers\CompletePurchase.class
+starter\stepdefinitions\AddItemStepDefinitions.class
+starter\helpers\Login.class
+starter\stepdefinitions\ParameterDefinitions.class
+starter\CucumberTestSuite.class
+starter\helpers\AddToCart.class
+starter\helpers\NavigateTo.class
