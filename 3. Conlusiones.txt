@@ -1,0 +1,41 @@
+|                                          CONCLUSIONES                                          |
+
+Según lo especificado en el documento del ejercicio de automatizó el siguiente flujo :
+
+Escenario 1
+
+• Autenticarse con el usuario: standard_user y password: secret_sauce
+• Agregar dos productos al carrito
+• Visualizar el carrito
+• Completar el formulario de compra
+• Finalizar la compra hasta la confirmación: “THANK YOU FOR YOUR ORDER”
+
+Se agregó escenario alterno negativo de login.
+
+Escenario 2
+
+• Autenticarse con credenciales incorrectas: standard_user y password: passx
+• Validar mensaje de credenciales incorrectos.
+
+- En el primer escenario se automatizó el flujo solicitado hasta la confirmación de compra “THANK YOU FOR YOUR ORDER”.
+- La prueba realizada correctamente, se ejecutó según lo esperado, en los reportes se puede encontrar el detalle paso a paso de la ejecución.
+- En el segundo escenario se pudo comprobar que se requieren credenciales correctos para acceder a la página, y validar que se presenta una alerta indicando que el usuario o contraseña no son correctos.
+
+Conclusiones generales
+
+Resultados generales: 
+
+Se ejecutaron 2 pruebas y todas finalizaron exitosamente, con una tasa de éxito del 100%. No hubo pruebas fallidas, pendientes, ignoradas, con errores ni comprometidas.
+
+Tiempos de ejecución:
+
+Tiempo total de ejecución de pruebas: 25 segundos.
+Tiempo promedio por prueba: 12 segundos.
+Prueba más rápida: 9 segundos.
+Prueba más lenta: 16 segundos.
+
+Pruebas ejecutadas:
+
+Login con credenciales incorrectas: éxito.
+Login con credenciales correctas: éxito.
+El reporte muestra un rendimiento óptimo, sin errores ni fallos. Las pruebas se ejecutaron rápidamente y cubrieron escenarios clave de inicio de sesión.
