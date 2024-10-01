@@ -1,4 +1,4 @@
-|                                          CONCLUSIONES                                          |
+|                                         CONCLUSIONES                                          |
 
 Según lo especificado en el documento del ejercicio de automatizó el siguiente flujo :
 
