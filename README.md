@@ -29,8 +29,10 @@ Descargar los plugins en IntelliJ IDEA en settings/plugins:
       - SonarLint
 
 Descarga e importar el proyecto de github https://github.com/fbecerraa/Ejercicio1SerenityBDD.git a IntelliJ IDEA.
-Debido a que es un proyecto con Maven, las dependencias se encuentran agregadas al archivo pom.xml.
 
+![369729059-f84cd944-1071-4627-9a0e-c3b79006b426](https://github.com/user-attachments/assets/aed12aa4-8878-4d1d-a9b3-6bb2489fdc4f)
+
+Debido a que es un proyecto con Maven, las dependencias se encuentran agregadas al archivo pom.xml.
 En intelliJ IDEA seleccionar Projects, Get from VCS luego agregar la url del proyecto de github y Clonar, elegir la opción proyecto Maven.
 
 3. Instrucciones para ejecutar el proyecto.
