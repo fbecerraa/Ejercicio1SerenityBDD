@@ -12,7 +12,7 @@
        - Gherkin
        - SonarLint
    - Maven versión 3.9.1 (Configurado en variables de entorno de sistema y en IntelliJ IDEA en `File > Settings > Build, Execution, Deployment > Build Tools > Maven > Maven home path` y especificar la ruta de instalación de Maven)
-   - JDK versión 11 (Configurado en variables de entorno de sistema, en IntelliJ IDEA en `File > Project Structure > Project` seleccionar el SDK 11.
+   - JDK versión 11 (Configurado en variables de entorno de sistema), en IntelliJ IDEA en `File > Project Structure > Project` seleccionar el SDK 11.
 
 2. **Configuraciones Previas**
 
