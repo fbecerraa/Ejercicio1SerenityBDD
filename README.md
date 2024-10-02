@@ -16,7 +16,7 @@ Este proyecto tiene los siguientes prerequisitos:
       - Gherkin
       - SonarLint
 - Maven version 3.9.1 (Configurado en variables de entorno de sistema) y en IntelliJ IDEA en File/Settings/Build, Execution, Deployment/Buil Tools/Maven/Maven home path y especificar la ruta de instalación de Maven.
-- JDK versión 11 (Configurado en variables de entorno de sistema)
+- JDK versión 11 (Configurado en variables de entorno de sistema) y en IntelliJ IDEA en File/Project Structure/Project Seleccionar el SDK 11.
 
 2. Configuraciones previas.
 
