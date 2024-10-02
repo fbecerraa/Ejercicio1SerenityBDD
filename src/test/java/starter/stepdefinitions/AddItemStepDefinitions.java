@@ -1,6 +1,5 @@
 package starter.stepdefinitions;
 
-import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -11,8 +10,6 @@ import net.serenitybdd.screenplay.questions.Text;
 import org.junit.Assert;
 import starter.helpers.*;
 
-import java.util.List;
-import java.util.Map;
 
 public class AddItemStepDefinitions {
 
@@ -49,13 +46,8 @@ public class AddItemStepDefinitions {
         );
     }
 
-    @And("he completes the purchase  with the following details:")
-    public void heCompletesThePurchaseWithTheFollowingDetails(DataTable dataTable) {
-        List<Map<String, String>> details = dataTable.asMaps(String.class, String.class);
-        String firstName = details.get(0).get("firstName");
-        String lastName = details.get(0).get("lastName");
-        String postalCode = details.get(0).get("postalCode");
-
+    @And("he completes the purchase with {string},{string} and {string}:")
+    public void heCompletesThePurchaseWithAnd(String firstName, String lastName, String postalCode) {
         OnStage.theActorInTheSpotlight().attemptsTo(
                 CompletePurchase.withDetails(firstName, lastName, postalCode)
         );
@@ -84,6 +76,4 @@ public class AddItemStepDefinitions {
         String actualAlertMessage = OnStage.theActorInTheSpotlight().asksFor(Text.of(PageObjectsSwag.ALERT_MESSAGE).asString());
         Assert.assertEquals("The alert message should be correct", expectedAlertMessage, actualAlertMessage);
     }
-
-
 }
